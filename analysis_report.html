@@ -1,0 +1,146 @@
+<html><head>
+<title>AI Code Agent – Report</title>
+<meta charset='utf-8'/>
+<style>
+body { font-family: Arial, sans-serif; padding: 20px; }
+h1 { color: #004c97; }
+h2 { color: #0077cc; margin-top: 24px; }
+ul { margin-left: 20px; }
+li { margin-bottom: 4px; }
+p { line-height: 1.4; }
+</style>
+</head><body>
+<h1>AI Code Agent – Report</h1>
+<p>Generated on 2025-12-07 18:17:35.906431</p>
+<h2>Summary</h2>
+<p>This project contains 9 analyzed Python file(s). No critical syntax errors were detected. The analyzer reported 3 warning(s) about code structure or complexity. There are 41 element(s) without docstrings (functions or classes). 70 PEP8 style issue(s) were found (spacing, line length, tabs, etc.). Main improvement suggestions: - Add docstrings to undocumented functions and classes. - Apply a code formatter or fix basic PEP8 issues. - Reduce nesting and complexity where the analyzer reported warnings.</p>
+<h2>Errors</h2>
+<p>No items.</p>
+<h2>Warnings</h2>
+<ul>
+<li>src/ai_code_agent\analyzer.py has high cyclomatic complexity: 50</li>
+<li>src/ai_code_agent\optimizer.py has high cyclomatic complexity: 48</li>
+<li>src/ai_code_agent\reporter.py has high cyclomatic complexity: 16</li>
+</ul>
+<h2>Missing docstrings</h2>
+<ul>
+<li>src/ai_code_agent\analyzer.py:17 -> Missing docstring in FunctionDef '__init__'</li>
+<li>src/ai_code_agent\analyzer.py:30 -> Missing docstring in FunctionDef 'run'</li>
+<li>src/ai_code_agent\analyzer.py:52 -> Missing docstring in FunctionDef '_analyze_file'</li>
+<li>src/ai_code_agent\analyzer.py:81 -> Missing docstring in FunctionDef '_analyze_docstrings'</li>
+<li>src/ai_code_agent\analyzer.py:91 -> Missing docstring in FunctionDef '_compute_complexity'</li>
+<li>src/ai_code_agent\analyzer.py:112 -> Missing docstring in FunctionDef '_analyze_structure'</li>
+<li>src/ai_code_agent\analyzer.py:121 -> Missing docstring in FunctionDef '_nesting_depth'</li>
+<li>src/ai_code_agent\analyzer.py:133 -> Missing docstring in FunctionDef '_check_pep8'</li>
+<li>src/ai_code_agent\analyzer.py:162 -> Missing docstring in FunctionDef '_register_imports'</li>
+<li>src/ai_code_agent\analyzer.py:175 -> Missing docstring in FunctionDef '_detect_import_cycles'</li>
+<li>src/ai_code_agent\analyzer.py:193 -> Missing docstring in FunctionDef '_detect_duplicates'</li>
+<li>src/ai_code_agent\analyzer.py:211 -> Missing docstring in FunctionDef '_print_summary'</li>
+<li>src/ai_code_agent\analyzer.py:179 -> Missing docstring in FunctionDef 'dfs'</li>
+<li>src/ai_code_agent\cli.py:8 -> Missing docstring in FunctionDef 'main'</li>
+<li>src/ai_code_agent\optimizer.py:16 -> Missing docstring in FunctionDef '__init__'</li>
+<li>src/ai_code_agent\optimizer.py:21 -> Missing docstring in FunctionDef 'run'</li>
+<li>src/ai_code_agent\optimizer.py:36 -> Missing docstring in FunctionDef '_optimize_file'</li>
+<li>src/ai_code_agent\reporter.py:4 -> Missing docstring in ClassDef 'LocalReport'</li>
+<li>src/ai_code_agent\reporter.py:6 -> Missing docstring in FunctionDef 'build_summary'</li>
+<li>src/ai_code_agent\reporter.py:59 -> Missing docstring in FunctionDef '__init__'</li>
+<li>src/ai_code_agent\reporter.py:63 -> Missing docstring in FunctionDef 'build_html'</li>
+<li>src/ai_code_agent\reporter.py:108 -> Missing docstring in FunctionDef 'save'</li>
+<li>src/ai_code_agent\reporter.py:87 -> Missing docstring in FunctionDef 'add_section'</li>
+<li>src/ai_code_agent\test_demo.py:20 -> Missing docstring in FunctionDef 'make_default'</li>
+<li>src/ai_code_agent\test_demo.py:28 -> Missing docstring in FunctionDef 'main'</li>
+<li>src/ai_code_agent\test_demo_optimized.py:12 -> Missing docstring in FunctionDef 'make_default'</li>
+<li>src/ai_code_agent\test_demo_optimized.py:18 -> Missing docstring in FunctionDef 'main'</li>
+<li>src/ai_code_agent\tp5.py:187 -> Missing docstring in FunctionDef 'main'</li>
+<li>src/ai_code_agent\tp5.py:52 -> Missing docstring in FunctionDef '__init__'</li>
+<li>src/ai_code_agent\tp5.py:57 -> Missing docstring in FunctionDef 'OnSolutionCallback'</li>
+<li>src/ai_code_agent\tp5.py:63 -> Missing docstring in FunctionDef 'SolutionCount'</li>
+<li>src/ai_code_agent\tp5.py:126 -> Missing docstring in FunctionDef '__init__'</li>
+<li>src/ai_code_agent\tp5.py:131 -> Missing docstring in FunctionDef 'OnSolutionCallback'</li>
+<li>src/ai_code_agent\tp5.py:137 -> Missing docstring in FunctionDef 'SolutionCount'</li>
+<li>src/ai_code_agent\tp5_optimized.py:172 -> Missing docstring in FunctionDef 'main'</li>
+<li>src/ai_code_agent\tp5_optimized.py:52 -> Missing docstring in FunctionDef '__init__'</li>
+<li>src/ai_code_agent\tp5_optimized.py:57 -> Missing docstring in FunctionDef 'OnSolutionCallback'</li>
+<li>src/ai_code_agent\tp5_optimized.py:63 -> Missing docstring in FunctionDef 'SolutionCount'</li>
+<li>src/ai_code_agent\tp5_optimized.py:125 -> Missing docstring in FunctionDef '__init__'</li>
+<li>src/ai_code_agent\tp5_optimized.py:130 -> Missing docstring in FunctionDef 'OnSolutionCallback'</li>
+<li>src/ai_code_agent\tp5_optimized.py:136 -> Missing docstring in FunctionDef 'SolutionCount'</li>
+</ul>
+<h2>PEP8 issues</h2>
+<ul>
+<li>src/ai_code_agent\analyzer.py:89 -> Trailing whitespace</li>
+<li>src/ai_code_agent\analyzer.py:191 -> Trailing whitespace</li>
+<li>src/ai_code_agent\optimizer.py:234 -> Missing space after comma</li>
+<li>src/ai_code_agent\test_demo.py:1 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:2 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:3 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:5 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:6 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:10 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:11 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:12 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:13 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:17 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:21 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:22 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:22 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:23 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:23 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:24 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:25 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:26 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:28 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:29 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:29 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:30 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:31 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:31 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\test_demo.py:32 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:33 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:34 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:35 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:37 -> Trailing whitespace</li>
+<li>src/ai_code_agent\test_demo.py:37 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\tp5.py:21 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:22 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:23 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:24 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:25 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:26 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:27 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:31 -> Trailing whitespace</li>
+<li>src/ai_code_agent\tp5.py:65 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\tp5.py:78 -> Trailing whitespace</li>
+<li>src/ai_code_agent\tp5.py:80 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:81 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:82 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:83 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:84 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:85 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:86 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:92 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\tp5.py:94 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\tp5.py:95 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\tp5.py:98 -> Trailing whitespace</li>
+<li>src/ai_code_agent\tp5.py:102 -> Trailing whitespace</li>
+<li>src/ai_code_agent\tp5.py:139 -> Tab indent found (use 4 spaces)</li>
+<li>src/ai_code_agent\tp5.py:156 -> Trailing whitespace</li>
+<li>src/ai_code_agent\tp5.py:158 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:159 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:160 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:161 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:162 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:163 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:164 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:167 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:170 -> Trailing whitespace</li>
+<li>src/ai_code_agent\tp5.py:172 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:173 -> Trailing whitespace</li>
+<li>src/ai_code_agent\tp5.py:176 -> Missing space after comma</li>
+<li>src/ai_code_agent\tp5.py:177 -> Trailing whitespace</li>
+</ul>
+<h2>Import cycles</h2>
+<p>No items.</p>
+<h2>Duplicate code</h2>
+<p>No items.</p>
+</body></html>

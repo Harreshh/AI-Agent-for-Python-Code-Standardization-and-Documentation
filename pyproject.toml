@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-code-agent"
+version = "1.0.0"
+description = "Agent for analyzing, optimizing and reporting Python code."
+authors = [
+    { name = "Valentin", email = "valgempp@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ai_code_agent"]
+
+[project.scripts]
+code-agent = "ai_code_agent.cli:main"

@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/ai_code_agent/__init__.py
+src/ai_code_agent/analyzer.py
+src/ai_code_agent/cli.py
+src/ai_code_agent/optimizer.py
+src/ai_code_agent/reporter.py
+src/ai_code_agent/test_demo.py
+src/ai_code_agent/test_demo_optimized.py
+src/ai_code_agent.egg-info/PKG-INFO
+src/ai_code_agent.egg-info/SOURCES.txt
+src/ai_code_agent.egg-info/dependency_links.txt
+src/ai_code_agent.egg-info/entry_points.txt
+src/ai_code_agent.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+# AI Code Agent - Production Requirements
+# ---------------------------------------
+# This project relies exclusively on the Python standard library
+# and does not require external third-party packages.
+# 
+# A requirements file is provided to allow reproducibility in
+# enterprise deployment pipelines (CI/CD, cloud runners, auditing).
+# 
+# Minimum supported Python version:
+#   Python >= 3.9
+
+# No external dependencies required
