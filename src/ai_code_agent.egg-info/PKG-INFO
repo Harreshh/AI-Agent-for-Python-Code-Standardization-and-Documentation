@@ -1,0 +1,333 @@
+Metadata-Version: 2.4
+Name: ai-code-agent
+Version: 1.0.0
+Summary: Agent for analyzing, optimizing and reporting Python code.
+Author-email: Valentin <valgempp@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+**AI Code Agent**
+=================================
+
+This project is a **fully local Python application** that helps you **analyze, clean, optimize and document Python code**.Nothing is uploaded anywhere. There is **no cloud**, **no account**, **no API key**, **no external server**.
+
+Everything runs **on your machine**, using standard Python tools.
+
+The project exposes a **web interface** (opened in your browser) that internally drives a CLI.You normally **do not need to touch the CLI yourself**.
+
+What this project actually does
+-------------------------------
+
+This tool is built around a simple idea:
+
+> Let proven tools (flake8, pylint, radon, black, isort, autoflake, etc.) do the heavy work, and orchestrate them cleanly.
+
+Concretely, it can:
+
+*   scan Python files or folders
+    
+*   detect:
+    
+    *   unused imports
+        
+    *   unused variables
+        
+    *   PEP8 style issues
+        
+    *   code quality issues
+        
+    *   cyclomatic complexity
+        
+*   generate **HTML reports**
+    
+*   clean and format code safely
+    
+*   optionally modify files in place
+    
+*   generate documentation from docstrings
+    
+*   visualize file dependencies (graph)
+    
+
+All actions are launched from a **single local interface**.
+
+What you need
+-------------
+
+You only need:
+
+*   **Python 3.9 or newer**
+    
+*   a terminal
+    
+*   this project folder
+    
+
+Check Python:
+
+`   python --version   `
+
+Go to the right path:
+`   cd "path"   ` 
+
+Virtual environment (why and how)
+---------------------------------
+
+This project uses many Python tools.A virtual environment avoids conflicts with your system Python.
+
+Create it once:
+
+`   python -m venv .venv   `
+
+Activate it.
+
+macOS / Linux:
+`   source .venv/bin/activate   `
+
+Windows:
+`   .venv\Scripts\activate   `
+
+Your terminal should now show something like:
+`   (.venv)   `
+
+If it doesn’t, stop and fix this first.
+
+Install everything the project needs
+------------------------------------
+
+With the virtual environment active:
+`   pip install -r requirements.txt   `
+
+If you get an error saying pip is missing:
+`   python -m ensurepip --upgrade   `
+
+Then retry the install.
+
+This step installs:
+
+*   flake8
+    
+*   pylint
+    
+*   radon
+    
+*   black
+    
+*   isort
+    
+*   autoflake
+    
+*   watchdog
+    
+*   graphviz (Python binding)
+    
+*   and other internal dependencies
+    
+
+How you actually launch the project
+-----------------------------------
+
+You **do not** start the CLI directly.
+
+You start the **interface launcher**:
+`   python run_gui.py   `
+
+What happens:
+
+*   a local server starts
+    
+*   a browser tab opens automatically
+    
+*   the interface connects to the local Python environment
+    
+
+If the browser does not open, go manually to:
+`   http://127.0.0.1:8787   `
+
+Using the interface
+-------------------------------------
+
+From the browser:
+
+1.  Choose an action (Analyze, Optimize, Report, Docs, etc.)
+    
+2.  Enter a path:
+    
+    *   a single .py file
+        
+    *   or a folder containing Python files
+        
+3.  Click **Run**
+    
+
+The interface:
+
+*   builds the correct command
+    
+*   runs it using the project’s Python environment
+    
+*   shows all logs in real time
+    
+*   lets you open generated files directly
+
+About paths
+-----------------------
+
+Paths are relative to where you launched the project.
+
+Valid examples:
+`   src/ai_code_agent  src/ai_code_agent/test_demo.py   `
+
+Analyze
+-------
+
+Analyze does **not modify anything**.
+
+It:
+
+*   scans files
+    
+*   collects issues
+    
+*   builds a structured result
+    
+*   can export data for reports or optimization
+    
+
+If required tools are missing, the analyzer tells you exactly which ones.
+
+Optimize
+--------
+
+Optimize cleans code using real tools.
+
+It can:
+
+*   remove unused imports and variables
+    
+*   sort imports
+    
+*   format code consistently
+    
+*   work on a file or a folder
+    
+
+You choose whether:
+
+*   files are modified directly
+    
+*   or \_optimized.py copies are created
+    
+
+This choice is exposed in the interface.
+
+HTML reports
+------------
+
+Reports are generated locally as HTML files.
+
+After generation:
+
+*   a button appears to open them
+    
+*   files stay on your disk
+    
+*   nothing is sent anywhere
+    
+
+You can open them later without rerunning the tool.
+
+Documentation tools
+-------------------
+
+The project includes:
+
+*   HTML documentation generation from existing docstrings
+    
+*   optional AI docstring generation (local model)
+    
+
+These are independent from analysis and optimization.
+
+Dependency graph
+----------------
+
+The dependency graph script:
+
+*   parses Python imports using ast
+    
+*   builds a visual graph using Graphviz
+    
+For large projects, this can be slow. 
+
+
+Stopping the project
+--------------------
+
+To stop everything:
+
+*   go back to the terminal
+    
+*   press **Ctrl + C**   
+
+You can then close the browser.
+
+
+Common issues and what they mean
+--------------------------------
+
+**ModuleNotFoundError**
+
+*   virtual environment not active
+    
+*   dependencies not installed
+    
+*   wrong folder
+    
+
+**Nothing happens in browser**
+
+*   server is running but browser didn’t open
+    
+*   open http://127.0.0.1:8787 manually
+    
+
+**Optimize does nothing**
+
+*   code was already clean
+    
+*   or nothing matched removal rules
+    
+
+**Analyzer complains about missing tools**
+
+*   install exactly what it tells you
+    
+*   pip install flake8 pylint radon autoflake
+    
+
+**Graph generation takes a long time**
+
+*   project is large
+    
+*   many files
+    
+*   dependency parsing is expensive
+
+**If you don't want to use the interface**
+
+*   `  export PYTHONPATH="$(pwd)/src"  `
+
+*   And you can : 
+
+*   Analyze all files :  `  python -m ai_code_agent.cli analyze src/ai_code_agent  `  
+
+*   Optimize one file :  `  python -m ai_code_agent.cli optimize src/ai_code_agent/test_demo.py  `  
+
+*   Generate an HTML report of all errors : `  python -m ai_code_agent.cli report-html src/ai_code_agent --output analysis_report.html  `  
+
+*   Generate docs string thanks to the AI : `  python -m ai_code_agent.cli doc-ai src/ai_code_agent  `  
+
+*   Generate an HTML report of all doc strings in the project :  `  python -m ai_code_agent.cli doc-html src/ai_code_agent  `  
+
+*   Generate the dependencies graph :  `  python graph.py  `  
