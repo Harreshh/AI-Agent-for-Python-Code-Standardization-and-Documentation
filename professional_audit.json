@@ -1,0 +1,687 @@
+{
+  "metadata": {
+    "analyzed_path": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z",
+    "timestamp": "2026-03-15T11:47:16.729167",
+    "total_files": 3,
+    "analyzer_version": "2.0-professional"
+  },
+  "files": [
+    "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/__init__.py",
+    "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+    "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py"
+  ],
+  "flake8_issues": [
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/__init__.py",
+      "line": 1,
+      "column": 1,
+      "code": "F401",
+      "message": "F401 '.analysis_quantb.run_quant_b' imported but unused"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/__init__.py",
+      "line": 1,
+      "column": 41,
+      "code": "W292",
+      "message": "W292 no newline at end of file"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 18,
+      "column": 1,
+      "code": "F401",
+      "message": "F401 'dataclasses.dataclass' imported but unused"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 121,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (91 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 124,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (93 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 152,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (80 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 214,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (80 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 228,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (88 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 254,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (83 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 262,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (91 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 263,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (84 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 266,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (83 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 267,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (83 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 281,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (103 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 297,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (100 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 298,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (84 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 302,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (80 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 307,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (82 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 323,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (85 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 326,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (87 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 345,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (88 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 348,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (111 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 363,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (92 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 366,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (98 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 14,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (80 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 18,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (93 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 29,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (107 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 32,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (112 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 45,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (97 > 79 characters)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 55,
+      "column": 80,
+      "code": "E501",
+      "message": "E501 line too long (90 > 79 characters)"
+    }
+  ],
+  "pylint_issues": [
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/__init__.py",
+      "line": 1,
+      "column": 0,
+      "type": "convention",
+      "symbol": "missing-final-newline",
+      "message": "Final newline missing"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/__init__.py",
+      "line": 1,
+      "column": 0,
+      "type": "convention",
+      "symbol": "missing-module-docstring",
+      "message": "Missing module docstring"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 29,
+      "column": 0,
+      "type": "convention",
+      "symbol": "line-too-long",
+      "message": "Line too long (107/100)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 32,
+      "column": 0,
+      "type": "convention",
+      "symbol": "line-too-long",
+      "message": "Line too long (112/100)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 10,
+      "column": 0,
+      "type": "error",
+      "symbol": "import-error",
+      "message": "Unable to import 'pandas'"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 11,
+      "column": 0,
+      "type": "error",
+      "symbol": "import-error",
+      "message": "Unable to import 'plotly.graph_objects'"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 24,
+      "column": 15,
+      "type": "refactor",
+      "symbol": "use-dict-literal",
+      "message": "Consider using '{\"l\": 20, \"r\": 20, \"t\": 50, \"b\": 20}' instead of a call to 'dict'."
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 37,
+      "column": 15,
+      "type": "refactor",
+      "symbol": "use-dict-literal",
+      "message": "Consider using '{\"l\": 20, \"r\": 20, \"t\": 50, \"b\": 20}' instead of a call to 'dict'."
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 50,
+      "column": 15,
+      "type": "refactor",
+      "symbol": "use-dict-literal",
+      "message": "Consider using '{\"l\": 20, \"r\": 20, \"t\": 50, \"b\": 20}' instead of a call to 'dict'."
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 64,
+      "column": 21,
+      "type": "refactor",
+      "symbol": "use-dict-literal",
+      "message": "Consider using '{\"title\": 'corr'}' instead of a call to 'dict'."
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "line": 67,
+      "column": 42,
+      "type": "refactor",
+      "symbol": "use-dict-literal",
+      "message": "Consider using '{\"l\": 20, \"r\": 20, \"t\": 50, \"b\": 20}' instead of a call to 'dict'."
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 281,
+      "column": 0,
+      "type": "convention",
+      "symbol": "line-too-long",
+      "message": "Line too long (103/100)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 348,
+      "column": 0,
+      "type": "convention",
+      "symbol": "line-too-long",
+      "message": "Line too long (111/100)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 22,
+      "column": 0,
+      "type": "error",
+      "symbol": "import-error",
+      "message": "Unable to import 'pandas'"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 23,
+      "column": 0,
+      "type": "error",
+      "symbol": "import-error",
+      "message": "Unable to import 'streamlit'"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 50,
+      "column": 11,
+      "type": "warning",
+      "symbol": "broad-exception-caught",
+      "message": "Catching too general exception Exception"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 48,
+      "column": 8,
+      "type": "error",
+      "symbol": "import-error",
+      "message": "Unable to import 'shared.config'"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 48,
+      "column": 8,
+      "type": "convention",
+      "symbol": "import-outside-toplevel",
+      "message": "Import outside toplevel (shared.config.DEFAULT_ASSETS)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 56,
+      "column": 11,
+      "type": "warning",
+      "symbol": "broad-exception-caught",
+      "message": "Catching too general exception Exception"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 54,
+      "column": 8,
+      "type": "error",
+      "symbol": "import-error",
+      "message": "Unable to import 'shared.data_manager'"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 54,
+      "column": 8,
+      "type": "convention",
+      "symbol": "import-outside-toplevel",
+      "message": "Import outside toplevel (shared.data_manager.get_financial_data)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 64,
+      "column": 11,
+      "type": "warning",
+      "symbol": "broad-exception-caught",
+      "message": "Catching too general exception Exception"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 62,
+      "column": 8,
+      "type": "convention",
+      "symbol": "import-outside-toplevel",
+      "message": "Import outside toplevel (shared.metrics)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 62,
+      "column": 8,
+      "type": "error",
+      "symbol": "import-error",
+      "message": "Unable to import 'shared.metrics'"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 251,
+      "column": 0,
+      "type": "convention",
+      "symbol": "missing-function-docstring",
+      "message": "Missing function or method docstring"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 251,
+      "column": 0,
+      "type": "refactor",
+      "symbol": "too-many-locals",
+      "message": "Too many local variables (25/15)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 330,
+      "column": 15,
+      "type": "warning",
+      "symbol": "broad-exception-caught",
+      "message": "Catching too general exception Exception"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 251,
+      "column": 0,
+      "type": "refactor",
+      "symbol": "too-many-statements",
+      "message": "Too many statements (76/50)"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "line": 18,
+      "column": 0,
+      "type": "warning",
+      "symbol": "unused-import",
+      "message": "Unused dataclass imported from dataclasses"
+    }
+  ],
+  "complexity": {
+    "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py": {
+      "total": 5,
+      "functions": 4,
+      "details": [
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "plot_prices",
+          "col_offset": 0,
+          "lineno": 14,
+          "endline": 26,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "plot_portfolio_value",
+          "col_offset": 0,
+          "lineno": 29,
+          "endline": 39,
+          "complexity": 1,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "plot_drawdown",
+          "col_offset": 0,
+          "lineno": 42,
+          "endline": 52,
+          "complexity": 1,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "plot_corr_heatmap",
+          "col_offset": 0,
+          "lineno": 55,
+          "endline": 68,
+          "complexity": 1,
+          "closures": []
+        }
+      ]
+    },
+    "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py": {
+      "total": 58,
+      "functions": 15,
+      "details": [
+        {
+          "type": "function",
+          "rank": "C",
+          "name": "run_quant_b",
+          "col_offset": 0,
+          "lineno": 251,
+          "endline": 372,
+          "complexity": 17,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "B",
+          "name": "_backtest_portfolio",
+          "col_offset": 0,
+          "lineno": 167,
+          "endline": 207,
+          "complexity": 6,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "B",
+          "name": "_get_assets_from_session_or_default",
+          "col_offset": 0,
+          "lineno": 214,
+          "endline": 224,
+          "complexity": 6,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_load_prices_cached",
+          "col_offset": 0,
+          "lineno": 228,
+          "endline": 244,
+          "complexity": 5,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_try_import_shared",
+          "col_offset": 0,
+          "lineno": 38,
+          "endline": 67,
+          "complexity": 4,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_sharpe",
+          "col_offset": 0,
+          "lineno": 95,
+          "endline": 103,
+          "complexity": 4,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_annualized_vol",
+          "col_offset": 0,
+          "lineno": 81,
+          "endline": 84,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_annualized_return",
+          "col_offset": 0,
+          "lineno": 87,
+          "endline": 92,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_max_drawdown",
+          "col_offset": 0,
+          "lineno": 106,
+          "endline": 111,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_drawdown_series",
+          "col_offset": 0,
+          "lineno": 114,
+          "endline": 118,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_normalize_weights",
+          "col_offset": 0,
+          "lineno": 139,
+          "endline": 145,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_custom_weights",
+          "col_offset": 0,
+          "lineno": 152,
+          "endline": 154,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_rebalance_dates",
+          "col_offset": 0,
+          "lineno": 157,
+          "endline": 164,
+          "complexity": 2,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_compute_metrics",
+          "col_offset": 0,
+          "lineno": 121,
+          "endline": 129,
+          "complexity": 1,
+          "closures": []
+        },
+        {
+          "type": "function",
+          "rank": "A",
+          "name": "_equal_weights",
+          "col_offset": 0,
+          "lineno": 148,
+          "endline": 149,
+          "complexity": 1,
+          "closures": []
+        }
+      ]
+    }
+  },
+  "unused_code": [
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/__init__.py",
+      "message": "Contains unused imports or variables",
+      "details": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/__init__.py: Unused imports/variables detected\n"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py",
+      "message": "Contains unused imports or variables",
+      "details": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/visualization.py: No issues detected!\n"
+    },
+    {
+      "file": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py",
+      "message": "Contains unused imports or variables",
+      "details": "/var/folders/8s/7wscg4kj3wxgfd0r4p8h2rhr0000gn/T/codepilot_upload_ywdv3m7z/quant_b/analysis_quantb.py: Unused imports/variables detected\n"
+    }
+  ],
+  "summary": {
+    "total_flake8_issues": 30,
+    "total_pylint_issues": 29,
+    "files_with_unused_code": 3,
+    "average_complexity": 31.5,
+    "health_score": "D (Poor)"
+  }
+}

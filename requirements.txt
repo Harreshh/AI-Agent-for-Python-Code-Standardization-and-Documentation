@@ -1,0 +1,12 @@
+argparse ; python_version < "3.10"
+flake8
+pylint
+radon
+autoflake
+black
+isort
+watchdog
+jinja2
+graphviz
+requests
+rich
