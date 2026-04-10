@@ -1,2 +1,0 @@
-[console_scripts]
-code-agent = ai_code_agent.cli:main
